@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to On Guard",
+    "section": "",
+    "text": "On Guard is a baseball data science blog built on a Neo4j graph of Statcast data. The goal is to explore pitch and swing mechanics, player similarity, and situational tendencies — with a particular focus on the Cleveland Guardians."
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-is-this",
+    "href": "posts/welcome/index.html#what-is-this",
+    "title": "Welcome to On Guard",
+    "section": "",
+    "text": "On Guard is a baseball data science blog built on a Neo4j graph of Statcast data. The goal is to explore pitch and swing mechanics, player similarity, and situational tendencies — with a particular focus on the Cleveland Guardians."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-stack",
+    "href": "posts/welcome/index.html#the-stack",
+    "title": "Welcome to On Guard",
+    "section": "The stack",
+    "text": "The stack\nAnalysis is driven by a graph where every pitch is a node connected to:\n\nThe pitcher who threw it\nThe batter who faced it\nIts pitch mechanics cluster (velocity, movement, spin)\nIts swing mechanics cluster (bat speed, attack angle, swing length)\nThe zone it landed in\nThe contact outcome if it was put in play\n\nNode embeddings are generated via FastRP in Neo4j GDS, capturing each player’s structural fingerprint across the season. Predictive models use XGBoost on top of those embeddings in a staged pipeline."
+  },
+  {
+    "objectID": "posts/welcome/index.html#coming-up",
+    "href": "posts/welcome/index.html#coming-up",
+    "title": "Welcome to On Guard",
+    "section": "Coming up",
+    "text": "Coming up\n\nSwing archetype breakdown for the 2025 Guardians roster\nPitch cluster analysis — what makes José Ramírez hard to pitch to\nBatter similarity: who swings like whom\n\nStay tuned."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "On Guard is a baseball data science blog with a bias toward coverage of the Cleveland Guardians.\nAnalysis is built on a Statcast graph database using Neo4j, with clustering, graph embeddings, and staged predictive models. The underlying tooling lives in the neo4j_baseball repo.\nTopics covered:\n\nSwing mechanics clustering and archetypes\nPitch mechanics and sequencing\nGraph-based player similarity\nGuardians roster analysis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "On Guard",
+    "section": "",
+    "text": "Welcome to On Guard\n\n\n\nmeta\n\nguardians\n\n\n\nIntroducing On Guard — a baseball data science blog built on Statcast graphs.\n\n\n\n\n\nApr 2, 2026\n\n\n\n\n\nNo matching items"
+  }
+]
