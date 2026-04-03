@@ -1,0 +1,14 @@
+---
+title: "About"
+---
+
+**On Guard** is a baseball data science blog with a bias toward coverage of the Cleveland Guardians.
+
+Analysis is built on a Statcast graph database using Neo4j, with clustering, graph embeddings, and staged predictive models. The underlying tooling lives in the [neo4j_baseball](https://github.com/grrom/neo4j_baseball) repo.
+
+Topics covered:
+
+- Swing mechanics clustering and archetypes
+- Pitch mechanics and sequencing
+- Graph-based player similarity
+- Guardians roster analysis

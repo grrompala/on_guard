@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "On Guard"
+  description: "Baseball data science with a Guardians bias"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/grrom/neo4j_baseball
+  favicon: favicon.ico
+
+  page-footer:
+    center: "On Guard — Baseball Data Science"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: true

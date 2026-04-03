@@ -1,0 +1,23 @@
+/* On Guard — custom styles */
+
+/* Guardians navy/red accent */
+:root {
+  --guards-navy: #002B5C;
+  --guards-red:  #E31937;
+}
+
+.navbar {
+  background-color: var(--guards-navy) !important;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+h1, h2, h3 {
+  color: var(--guards-navy);
+}
+
+a {
+  color: var(--guards-red);
+}
